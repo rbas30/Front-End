@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+a:hover {
+  color: white;
+}
+
+p {
+  color: #40514e;
+}
+
+hr {
+  border-color: #EAF6F6;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 5%;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: white;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  line-height: 2;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.who {
+  margin-top: 0;
+}
+
+.what {
+  font-size: 2.5rem;
+  /* font-weight: normal; ---Optional and only if you want the text to be lighter and less attention grabbing */
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+#brendan {
+  border-radius: 100%;
+  width: 10%;
+  border: 5px solid #40514E;
+  margin-top: 6%;
+}
+
+.greetings {
+  font-size: 3rem;
+  margin-top: 2%;
+}
+
+.body-heads {
+  font-size: 3rem;
+  margin-top: 6%;
+}
+
+.bio {
+  width: 25%;
+  margin: auto;
+  line-height: 2;
+  margin-bottom: 6%;
+}
+
+.camera {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.ps {
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.mark {
+  color: white;
+  font-size: 0.75rem;
+}
+
+.contact-me {
+  width: 30%;
+  margin: auto;
+  line-height: 2;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  padding-bottom: 1px;
+}
+
+.same {
+  margin-bottom: 10%;
+}
+
+.butn {
+  background: #68ebf0;
+  background-image: -webkit-linear-gradient(top, #68ebf0, #11999E);
+  background-image: -moz-linear-gradient(top, #68ebf0, #11999E);
+  background-image: -ms-linear-gradient(top, #68ebf0, #11999E);
+  background-image: -o-linear-gradient(top, #68ebf0, #11999E);
+  background-image: linear-gradient(to bottom, #68ebf0, #11999E);
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
